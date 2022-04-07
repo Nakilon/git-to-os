@@ -11,7 +11,7 @@ For example I am now updating my home page using it. If you want to do the same 
 3. add it in the bucket's ACL as "READ and WRITE"
 4. make a Github repo and a directory in it with the same name as your bucket (designed to be able to update multiple buckets from a single repo)
 5. in the repo Settings -> Security -> Secrets add the `AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_KEY` env vars equal to values in the Static Key you've generated in the step 2
-6. add a Workflow to your repo like this: https://github.com/Nakilon/www-nakilon-pro/blob/master/.github/workflows/sync_with_yos.yaml
+6. add a Workflow to your repo like this: https://github.com/Nakilon/www-nakilon-pro/blob/master/.github/workflows/sync.yaml
 
 **Google** (not included yet, use the legacy [Git-to-GCS Github Action](https://github.com/Nakilon/git-to-gcs) instead):
 
