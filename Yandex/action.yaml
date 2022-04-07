@@ -1,0 +1,15 @@
+name: Git to YOS (Yandex Object Storage)
+description: Sync Yandex Object Storage buckets with git repo directories
+inputs:
+  AWS_ACCESS_KEY_ID:
+    description: Yandex Object Storage READ-and-WRITE permitted Service Account Static Key ID
+    required: true
+  AWS_SECRET_ACCESS_KEY:
+    description: Yandex Object Storage READ-and-WRITE permitted Service Account Static Key value
+    required: true
+runs:
+  using: docker
+  image: Dockerfile
+branding:
+  icon: database
+  color: blue
